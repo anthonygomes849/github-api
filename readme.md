@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Aircnc" title="#delicinha" src="./src/assets/img/github-readme" width="250px" />
+    <img  src="./src/assets/img/github-readme.png" width="250px" />
 </h1>
 
 <h4 align="center">
@@ -19,12 +19,12 @@ Você pode baixar o layout do projeto no figma através [desse link](🔖).
     🔖  Styled Components
     🔖  React Router Dom
 
-## 🤔 Como contribuir
+## 🤔 Como Instalar
 
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
+- Faça um git clone desse repositório;
+- entre na pasta  `github-api`;
+- Instale as dependencias `yarn install'`;
+- Execute o Projeto `yarn dev`.
 
 Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
