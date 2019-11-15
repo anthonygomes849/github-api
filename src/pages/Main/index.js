@@ -30,7 +30,7 @@ export default function Main(props){
          try{
             
             const {data} = await api.get(`/users/${repolist}/repos`)
-            const sortStarsData = await data.sort((starsBigger,starSmaller) => starSmaller.stargazers_count - starsBigger.stargazers_count);
+            const sortStarsData = await data.sort((starsBigger,starsSmaller) => starsSmaller.stargazers_count - starsBigger.stargazers_count);
             const sortForksData = await data.sort((forkBigger,forkSmaller) => forkSmaller.forks_count - forkBigger.forks_count);
             
             // Verificando se o Usuario tem repositorios publicos
