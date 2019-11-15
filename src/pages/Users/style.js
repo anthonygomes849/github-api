@@ -8,8 +8,6 @@ export const Container = styled.div `
   align-items: center;
 `;
 
-export const Loading = styled.div``;
-
 export const Error = styled.div`
   display: ${props => props.errorMessage ? 'block' : 'none'};
   padding: 30px;

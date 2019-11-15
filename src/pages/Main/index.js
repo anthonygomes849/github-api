@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react';
 import api from '../../services/api'
-import { Repo,List,Message } from './style'
+import { Repo,List,Message,Input } from './style'
 import following from '../../assets/img/following.png'
 import followers from '../../assets/img/followers.png'
 import stars from '../../assets/img/star.png'
@@ -54,6 +54,7 @@ export default function Main(props){
         <>
         
             <div className="user">
+                
                 <Repo>
                             <div className="users-avatar">
                                 <img  src={result.avatar_url} alt=""/>
