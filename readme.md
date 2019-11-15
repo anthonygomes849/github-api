@@ -26,5 +26,4 @@ Você pode baixar o layout do projeto no figma através [desse link](🔖).
 - Instale as dependencias `yarn install'`;
 - Execute o Projeto `yarn start`.
 
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
