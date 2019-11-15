@@ -1,17 +1,14 @@
 import styled from 'styled-components'
 
 
-
-export const Back = styled.div`
-`;
 export const Repo = styled.div`
 
     padding:40px;
  
-    .user-item .bio{
+    .bio{
         color:#44475a;
         font-size:14px;
-        max-width:50%;
+        width:10px;
     }
     .userall{
         position:relative;
@@ -30,6 +27,7 @@ export const Repo = styled.div`
     .user-item{
         position:relative;
         left:2.5rem;
+        width:20%;
         
         
     }
@@ -72,7 +70,7 @@ export const List = styled.div`
     left:14%;
     height:25px;
     background: #44475a;
-    top:-30rem;
+    top:-25rem;
     border-radius:8px;
     width:10%;
 
