@@ -1,7 +1,7 @@
 import React, { useState} from 'react'
 import api from '../../services/api'
 import { Container,Input,Button,Form,Error} from './style'
-import logo from '../../assets/img/Airbnb-Logo-9.png'
+import logo from '../../assets/img/logo.png'
 import errorImg from '../../assets/img/error.png'
 import history from './history'
 import './styles.css';
