@@ -31,8 +31,11 @@ export default function Users(props) {
 
             console.log(data)
         }catch(err){
-            setError(true)
-            history.push('/users')
+            setTimeout(() => {
+                setError(true)
+            },3000)
+            
+            history.push('/')
         }
     }
     
@@ -44,12 +47,15 @@ export default function Users(props) {
             <Container>
 
 
-                <Error errorMessage={error}>
-                    <img src={errorImg} alt=""/>
+                
+                    <Error errorMessage={error}>
+                    <img src={errorImg} width='24' alt=""/>&nbsp;
 
                     <strong>Usuario nao Encontrado</strong>
                 </Error>
-               <Form >
+       
+
+                <Form >
                    <img src={logo} className="logo-alt" alt=""/>
                 <Input 
                     value={input}

@@ -15,8 +15,10 @@ export const Error = styled.div`
   padding: 30px;
   background: #ff5555;
   color:white;
+  font-size:18px;
   position: relative;
-  left:30rem
+  left:40rem;
+  top:2rem
 `;
 
 
